@@ -1,0 +1,131 @@
+.header {
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: #36827F;
+    color: #F8F9FA;
+    position: relative;
+    align-items: center;
+    z-index: 99;
+}
+
+.header_img {
+    width: 5rem;
+}
+
+/******** Menu *********/
+.header_navlink {
+    display: none;
+    background-color: #C2EFB3;
+    height: 25rem;
+    padding: 2rem;
+    font-size: 1.25em;
+    color: #262626;
+    font-weight: 800;
+    position: absolute;
+    top: 6rem;
+    right: 0;
+    border-radius: 15px;
+    border: 3px solid  #36827F;
+}
+
+.navlink_item {
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+/*******Animation menu*********/
+.header_navlink li {
+    width: fit-content;
+}
+
+.navlink_item--active {
+    border-bottom: 2px solid #262626;
+    border-radius: 1px;
+}
+
+li a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    border-radius: 1px;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+li a:hover:after {
+    width: 100%;
+    background: #36827F;
+}
+
+/** ajout car sinon bug boostrap **/
+
+li a:hover{
+    color: #36827F;
+    font-weight: none;
+}
+
+/******** Burger ***********/
+.header_burger {
+    width: 5rem;
+    height: 5rem;
+    background: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.burger_bar,
+.burger_bar::before,
+.burger_bar::after {
+    display: block;
+    width: 2.5rem;
+    height: 3px;
+    position: relative;
+    border-radius: 3px;
+    background-color: #ffffff;
+    transition: all .5s ease-in-out;
+}
+
+.burger_bar::before,
+.burger_bar::after {
+    content: '';
+    position: absolute;
+    left: 0;
+}
+
+.burger_bar::before {
+    transform: translateY(-12px);
+}
+
+.burger_bar::after {
+    transform: translateY(12px);
+}
+
+.show-nav .burger_bar {
+    width: 0;
+}
+
+.show-nav .burger_bar::before {
+    transform: rotate(45deg);
+}
+.show-nav .burger_bar::after {
+    transform: rotate(-45deg);
+}
+
+/******** logique menu ***********/
+.show-nav .header_navlink {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hide-nav .header_navlink {
+    display: none;
+}

@@ -1,0 +1,66 @@
+// .btn-custom {
+//     background-color: #36827f !important;
+//     border-color: #36827f !important;
+//     color: white;
+// }
+
+.btn-teal, //pour les boutons plus de la page GroupDetail
+.btn-teal:focus,
+.btn-teal:active {
+    background-color: #36827f !important;
+    border-color: #36827f !important;
+    color: white;
+}
+.btn-teal:hover {
+    background-color: rgb(54, 130, 127, 0.8) !important;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #36827f !important;
+    border-color: #36827f !important;
+    color: white;
+}
+.btn-primary:hover{
+    background-color: rgb(54, 130, 127, 0.8) !important;
+}
+
+.btn-secondary,
+.btn-secondary:focus,
+.btn-secondary:active {
+    background-color: #c2efb3 !important;
+    border-color: #c2efb3 !important;
+    color:black;
+}
+.btn-secondary:hover{
+    background-color: rgb(194, 239, 179,0.8) !important;
+    color:darkgray;
+}
+
+.btn-danger,
+.btn-danger:focus,
+.btn-danger:active {
+    background-color: #fd7979 !important;
+    border-color: #fd7979 !important;
+    color: black;
+}
+.btn-danger:hover{
+    background-color: rgb(253, 121, 121,0.8) !important;
+}
+
+.etend {
+    width: 100%;
+}
+
+.grow {
+    height: 100%;
+}
+
+li.disc {
+    list-style-type: disc;
+}
+
+.light-text {
+    color: darkgray;
+}

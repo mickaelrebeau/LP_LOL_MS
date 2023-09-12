@@ -1,0 +1,132 @@
+.request_title {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    padding-left: 11rem ;
+}
+
+/******* Section Request*******/
+.request_contact {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.request_card {
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    text-align: center;
+    margin: 1rem;
+}
+
+.card_title {
+    font-size: 1.3em;
+    color: #36827F;
+    margin-bottom: 1rem;
+}
+
+.card_button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.button_accepter, .button_refuser, .button_supprimer {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: none; 
+    padding: 0.5rem 2.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.button_accepter:hover, .button_refuser:hover, .button_supprimer:hover{
+    transform: scale(1.01);
+    box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button_accepter {
+    background-color: #C2EFB3;
+    margin: 1rem 0;
+}
+
+.button_refuser {
+    background-color: #FD7979;
+}
+
+
+/******* Section Notification*******/
+.request_notification {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.notification_card {
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    text-align: center;
+    margin: 1rem;
+    justify-content: space-between;
+}
+
+.card_container {
+    border: 1px solid #262626;
+    border-radius: 15px;
+    padding: 0.8rem;
+    background: #C2EFB3;
+}
+
+.notification_title {
+    font-size: 1.3em;
+    color: #36827F;
+    margin-bottom: 1rem;
+}
+
+.button_supprimer {
+    background-color: #FD7979;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+/************Responsive*************/
+
+@media screen and (max-width: 1100px) {
+    .request_title, .request_notification {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    .button_retour {
+        margin: 2rem 0;
+    }
+
+    .request_contact, .request_notification {
+        flex-direction: column;
+    }
+    
+    .request_card {
+        width: auto;
+    }
+
+    .notification_card {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+}

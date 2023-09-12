@@ -1,0 +1,70 @@
+.loader {
+    position:fixed;
+    z-index: 999;
+    top:0;
+    left:0;
+    bottom: 0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(228, 221, 220, 0.856);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+
+/****************** loader 2*****************/
+
+.anim2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 10rem;
+}
+
+.anim2 > div {
+    height: 100%;
+    width: 0.8rem;
+    margin: 0rem 0.26rem;
+    background: #36827F;
+    animation: etire 1.2s infinite ease-in-out;
+}
+
+.anim2 .anim2__rect2{
+    animation-delay: -1.1s;
+    background-color: #F8F9FA;
+}
+
+.anim2 .anim2__rect3{
+    animation-delay: -1s;
+    background-color:#C2EFB3;
+}
+
+.anim2.anim2__rect4{
+    animation-delay: -0.9s;
+    background-color:#36827F;
+}
+
+.anim2 .anim2__rect5{
+    animation-delay: -0.8s;
+    background-color:#F8F9FA;
+}
+
+@keyframes etire {
+    0% {
+        transform: scaleY(0.4)
+    }
+    20% {
+        transform: scaleY(1)
+    }
+    40% {
+        transform: scaleY(0.4)
+    }
+    100% {
+        transform: scaleY(0.4)
+    }
+}

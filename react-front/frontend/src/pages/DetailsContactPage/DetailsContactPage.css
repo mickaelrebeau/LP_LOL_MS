@@ -1,0 +1,119 @@
+.detail_info{
+    width: 80%;
+    font-size: 1.5em;
+}
+
+.info_title {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding-left: 6rem ;
+    align-items: center;
+}
+
+.info_container, .dataAdd_container{
+    border: 2px solid #36827F;
+    border-radius: 10px;
+    padding: 2rem 5rem;
+    margin-bottom: 4rem;
+}
+
+.groups_container {
+    padding: 2rem 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info_row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #36827F solid 2px;
+    margin-bottom: 2rem;
+}
+
+.row_label {
+    font-weight: 700;
+}
+
+.group_tag {
+    background: #C2EFB3;
+    width: fit-content;
+    padding: 0.2rem 1.5rem;
+    border: #36827F solid 2px;
+    border-radius: 15px;
+    display: flex;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+}
+
+.group_tag:first-child {
+    background-color: rgb(222, 222, 226);
+}
+
+/************Boutton*************/
+
+.button_partage {
+    width: 100%;
+    background-color: #C2EFB3;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: none; 
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    font-size: 1.5em;
+}
+
+.button_supp {
+    width: 100%;
+    background-color: #FD7979;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    border: none; 
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    font-size: 1.5em;
+}
+
+.button_partage:hover, .button_supp:hover {
+    transform: scale(1.01);
+    box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+/************Responsive*************/
+
+@media screen and (max-width: 800px) {
+    .info_title {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .detail_info{
+        width: auto;
+    }
+
+    .group_tag {
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+    }
+
+    .info_row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info_container, .dataAdd_container {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .groups_container {
+        padding: 0;
+    }
+}

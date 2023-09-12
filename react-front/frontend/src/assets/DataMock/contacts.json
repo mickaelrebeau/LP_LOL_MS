@@ -1,0 +1,182 @@
+[
+    {
+    "id": 1,
+    "pseudo": "Mike",
+    "email": "Mike@gmail.fr",
+    "firstname": "Mickael",
+    "lastname": "Rébeau",
+    "groups": ["Default", "mes copains", "mes amis", "la famille", "mes connaissances"],
+    "data_add": [{"numéro" : "0659891526"}, {"adresse": "123, rue imaginaire"}, {"discord":"mickael#1234"} ]
+},
+{
+    "id": 2,
+    "pseudo": "Jojo",
+    "email": "Joanne@gmail.fr",
+    "firstname": "Joanne",
+    "lastname": "",
+    "groups": ["Default", "mes amis" ],
+    "data_add": [{"numéro" : "0659891526"}, {"numéro": "0485986932"}, {"discord":"jojo#1234"} ]
+},
+{
+    "id": 3,
+    "pseudo": "Elon",
+    "email": "Elon@gmail.fr",
+    "firstname": "",
+    "lastname": "",
+    "groups": ["Default", "mes connaissances"],
+    "data_add": [{"numéro" : "0659891526"}, {"adresse": "123, rue imaginaire"}, {"digicode":"1234"} ]
+},
+{
+    "id": 4,
+    "pseudo": "Musk",
+    "email": "Musk@gmail.fr",
+    "firstname": "Elon",
+    "lastname": "Musk",
+    "groups": ["Default", "la famille", "mes connaissances"],
+    "data_add": [{"numéro" : "0659891526"}, {"adresse": "123, rue imaginaire"}, {"digicode":"4567"}, {"numéro": "0485986932"}, {"discord":"muskounet#1234"} ]
+},
+{
+    "id": 5,
+    "pseudo": "Clara",
+    "email": "Clara@gmail.fr",
+    "firstname": "Clara",
+    "lastname": "",
+    "groups": ["Default"],
+    "data_add": []
+},
+{
+    "id": 6,
+    "pseudo": "FannyMax",
+    "email": "FannyMax@gmail.fr",
+    "firstname": "Fanny",
+    "lastname": "",
+    "groups": ["Default","mes amis", "la famille"],
+    "data_add": [{"numéro" : "0659891526"}, {"adresse": "123, rue imaginaire"} ]
+},
+{
+    "id": 7,
+    "pseudo": "Max",
+    "email": "Max@gmail.fr",
+    "firstname": "Maxime",
+    "lastname": "Graillou",
+    "groups": ["Default", "mes amis"],
+    "data_add": []
+},
+{
+    "id": 8,
+    "pseudo": "Lamenace",
+    "email": "Lamenace@gmail.fr",
+    "firstname": "",
+    "lastname": "",
+    "groups": ["Default","mes connaissances"],
+    "data_add": [{"adresse": "123, rue imaginaire"} ]
+},
+{
+    "id": 9,
+    "pseudo": "Patrick",
+    "email": "Patrick@gmail.fr",
+    "firstname": "",
+    "lastname": "Escali",
+    "groups": ["Default", "mes copains"],
+    "data_add": [{"numéro" : "0659891526"}, {"adresse": "123, rue imaginaire"}, {"discord":"mi#1234"} ]
+},
+{
+    "id": 10,
+    "pseudo": "Clovis",
+    "email": "Clovis@gmail.fr",
+    "firstname": "Mickael",
+    "lastname": "Rébeau",
+    "groups": ["Default", "mes amis"],
+    "data_add": [{"numéro" : "0659891526"}, {"adresse": "123, rue imaginaire"}, {"discord":"ael#1234"} ]
+},
+{
+    "id": 11,
+    "pseudo": "Baptiste",
+    "email": "Baptiste@gmail.fr",
+    "firstname": "",
+    "lastname": "",
+    "groups": ["Default"],
+    "data_add": [{"numéro" : "0659891526"}, {"discord":"babaaurhum#1234"} ]
+},
+{
+    "id": 12,
+    "pseudo": "Floflo",
+    "email": "1fofo@gmail.fr",
+    "firstname": "Florian",
+    "lastname": "",
+    "groups": ["Default","mes amis", "mes connaissances"],
+    "data_add": [{"numéro" : "0659891526"} ]
+},
+{
+    "id": 13,
+    "pseudo": "Kiriku",
+    "email": "Kiriku@gmail.fr",
+    "firstname": "",
+    "lastname": "",
+    "groups": ["Default", "Fan de disney"],
+    "data_add": [{"numéro" : "0659891526"}, {"adresse": "123, rue imaginaire"}, {"discord":"kiki#1234"}, {"slogan": "kiriku n'est pas grand, mais il est vaillant!"} ]
+},
+{
+    "id": 14,
+    "pseudo": "Teemo",
+    "email": "Teemo@gmail.fr",
+    "firstname": "teemo",
+    "lastname": "LOL",
+    "groups": ["Default", "LOL power"],
+    "data_add": [{"discord":"teemo#1234"} ]
+},
+{
+    "id": 15,
+    "pseudo": "Senna",
+    "email": "Senna@gmail.fr",
+    "firstname": "",
+    "lastname": "LOL",
+    "groups": ["Default", "LOL power"],
+    "data_add": [{"numéro" : "0659891526"}, {"discord":"senna#1234"} ]
+},
+{
+    "id": 16,
+    "pseudo": "Janna",
+    "email": "Janna@gmail.fr",
+    "firstname": "Janna",
+    "lastname": "LOL",
+    "groups": ["Default", "LOL power", "la famille"],
+    "data_add": [{"numéro" : "0659891526"}, {"discord":"janna#1234"} ]
+},
+{
+    "id": 17,
+    "pseudo": "Zorro",
+    "email": "Zorro@gmail.fr",
+    "firstname": "Zorro",
+    "lastname": "Tornado",
+    "groups": ["Default", "mes copains"],
+    "data_add": [{"numéro" : "0659891526"} ]
+},
+{
+    "id": 18,
+    "pseudo": "Yoann",
+    "email": "Yoann@gmail.fr",
+    "firstname": "Yoann",
+    "lastname": "Jakouille",
+    "groups": ["Default", "mes amis", "la famille"],
+    "data_add": [{"numéro" : "0659891526"}, {"adresse": "123, rue imaginaire"}, {"discord":"yoann#1234"} ]
+},
+{
+    "id": 19,
+    "pseudo": "Lou",
+    "email": "Lou@gmail.fr",
+    "firstname": "",
+    "lastname": "",
+    "groups": ["Default"],
+    "data_add": []
+},
+{
+    "id": 20,
+    "pseudo": "Kate",
+    "email": "Kate@gmail.fr",
+    "firstname": "",
+    "lastname": "Hermina",
+    "groups": ["Default", "mes copains"],
+    "data_add": [ {"adresse": "123, rue imaginaire"}, {"discord":"Katynoob#1234"} ]
+}
+]

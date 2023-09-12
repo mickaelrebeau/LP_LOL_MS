@@ -1,0 +1,41 @@
+.scan_title {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding-left: 11rem ;
+}
+
+.button_retour {
+    background-color: #C2EFB3;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: none; 
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.button_retour:hover {
+    transform: scale(1.01);
+    box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.scan_container{
+    min-height: calc(100vh - 21rem);
+}
+
+.scan_qr {
+    height: 25rem;
+}
+
+/************Responsive*************/
+
+@media screen and (max-width: 990px) {
+    .scan_title{
+        width: 100%;
+        flex-direction: column-reverse;
+        padding-left: 0;
+        align-items: center;
+    }
+
+}

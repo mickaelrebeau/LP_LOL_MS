@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "pseudo": "Casper",
+        "email": "Casper@gmail.fr"
+    },
+    {
+        "id": 2,
+        "pseudo": "Sona",
+        "email": "Sona@gmail.fr"
+    },
+    {
+        "id": 3,
+        "pseudo": "Nasus",
+        "email": "Nasus@gmail.fr"
+    },
+    {
+        "id": 4,
+        "pseudo": "Soraka",
+        "email": "Soraka@gmail.fr"
+    },
+    {
+        "id": 5,
+        "pseudo": "Jax",
+        "email": "Jax@gmail.fr"
+    },
+    {
+        "id": 6,
+        "pseudo": "Irelia",
+        "email": "Irelia@gmail.fr"
+    },
+    {
+        "id": 7,
+        "pseudo": "Jhin",
+        "email": "Jhin@gmail.fr"
+    },
+    {
+        "id": 8,
+        "pseudo": "Sinjed",
+        "email": "Sinjed@gmail.fr"
+    }
+]

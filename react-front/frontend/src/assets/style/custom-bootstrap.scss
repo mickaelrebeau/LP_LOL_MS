@@ -1,0 +1,36 @@
+.btn-primary {
+    background-color: #36827F;
+}
+
+.btn-primary:hover,
+.btn-primary:checked {
+    background-color: rgba(54, 130, 127, .8);
+}
+
+.btn-secondary {
+    background-color: #C2EFB3;
+}
+
+.btn-secondary:hover,
+.btn-secondary:checked {
+    background-color: rgba(194, 239, 179, .8);
+}
+
+.btn-cancel {
+    background-color: #FD7979;
+}
+
+.btn-cancel:hover,
+.btn-cancel:checked {
+    background-color: rgba(253, 121, 121, .8);
+}
+
+.btn-ternary {
+    background-color: #F8F9FA;
+    border: none
+}
+
+.btn-ternary:hover,
+.btn-ternary:checked {
+    color: #36827F;
+}

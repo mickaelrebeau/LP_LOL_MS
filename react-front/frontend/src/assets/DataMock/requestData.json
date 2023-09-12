@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "pseudo": "Mike",
+        "email": "Mike@gmail.fr",
+        "request": "Tu peux m’envoyer ton nouveau numéro de téléphone ?"
+    },
+    {
+        "id": 2,
+        "pseudo": "Janna",
+        "email": "Janna@gmail.fr",
+        "request": "J'ai besoin de ton telephone pour une sceance car je flotte sur les airs de la véritée..."
+    },
+    {
+        "id": 3,
+        "pseudo": "Teemo",
+        "email": "Teemo@gmail.fr",
+        "request": "1, 2, 3, 4 ! Oui chef! Je vais passer en éclaireur passe moi l'adresse de Darius?!"
+    },
+    {
+        "id": 4,
+        "pseudo": "Senna",
+        "email": "Senna@gmail.fr",
+        "request": "Les chats méritent toute l'affection du monde et ils vous remercient en vous balançant un livre au visage"
+    },
+    {
+        "id": 5,
+        "pseudo": "Darius",
+        "email": "Darius@gmail.fr",
+        "request": "Le carnage n'épargnera personne mon frère meme pas toi ! Passe-moi ton compte LOL!"
+    },
+    {
+        "id": 6,
+        "pseudo": "Ashe",
+        "email": "Ashe@gmail.fr",
+        "request": "Je reve ou personne n'est habillé chaudement a Freljord !? J'ai un pull pour toi! C'est quoi ton digicode?"
+    },
+    {
+        "id": 7,
+        "pseudo": "Urgot",
+        "email": "Urgot@gmail.fr",
+        "request": "Pour briser tes chaines, je dois d'abord te briser toi... Qu'est tu prêt a faire pour survivre? donne-moi ta cb <3"
+    }
+]

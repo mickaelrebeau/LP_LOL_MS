@@ -1,0 +1,352 @@
+
+/****** notification *****/
+.notification {
+    margin: 2rem 0;
+}
+
+.notification_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.notification_box {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    border:#36827F solid 2px;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    background-color: #c2efb39f;
+}
+
+.notification_text {
+    margin: 0;
+}
+
+.notification_button--close {
+    border:#FD7979 solid 2px;
+    color: #FD7979;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-left: 1rem;
+    background-color: #c2efb39f;
+}
+
+.notification_button--show {
+    border:#36827F solid 2px;
+    color: #36827F;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #c2efb39f;
+}
+
+.notification_button--close:hover {
+    background-color: #fd79799c;
+    transition-delay:0.2s;
+    color: #262626;
+}
+
+.notification_button--show:hover {
+    background-color: #36828083;
+    transition-delay:0.2s;
+    color: #262626;
+}
+
+
+/*********Ajouter un contact**********/
+.contact_addsearch {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_addsearch {
+    font-size: 1.8em;
+    margin-right: 2rem;
+}
+
+.button_addsearch {
+    background-color: #36827F;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: none; 
+    padding: 0 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #F8F9FA;
+    font-size: 1.8em;
+    font-family: initial;
+}
+
+
+/****** searchbar *****/
+.searchBar {
+    position: relative;
+    padding: 0 2rem;
+    width: auto;
+}
+
+#searchBar {
+    border: none;
+    border: 2px solid #36827F;
+    border-radius: 30px;
+    background-color: unset;
+    outline: none;
+    font-size: 1em;
+    width: 100%;
+    height: 2rem;
+    padding:1.4rem 4rem;
+    
+}
+
+.searchBar_label {
+    position: absolute;
+    left: 6rem;
+    top: 0.8rem;
+    color:#2626269a;
+}
+
+#searchBar:focus + .searchBar_label {
+    transform: translateY(-3em) scale(0.9);
+    color:#262626;
+    font-weight: 700;
+}
+
+#searchBar::placeholder {
+    color: transparent;
+}
+
+/****** loupe *****/
+
+.loupe {
+    border-radius: 50%;
+    height: 2.9rem;
+    width: 2.9rem;
+    background: #C2EFB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1px;
+    left: 2.15rem;
+    z-index: 1;
+    border: solid 1px #36827F;
+}
+
+.loupe_container {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    padding: 0.2rem;
+}
+
+.loupe_round, .loupe_round--v2 {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+}
+
+.loupe_round {
+    border: 3px solid #262626;
+}
+
+.loupe_bar {
+    border-bottom: solid 3px #262626;
+}
+
+.loupe_round--v2 {
+    border: 3px solid #F8F9FA;
+}
+
+.loupe_bar--v2 {
+    border-bottom: 3px solid #F8F9FA;
+}
+
+.loupe_bar, .loupe_bar--v2{
+    position: absolute;
+    border-radius: 2px;
+    height: 2px;
+    width: 10px;
+    transform: rotate(45deg);
+    right: 4px;
+    bottom: 8px;
+}
+
+/****** section contacts *****/
+
+.contactCard {
+    padding: 2rem 2rem ;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactCard h2 {
+    text-align: center;
+    font-size: 3em;
+    color: #36827F;
+}
+
+.contactCard_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.contactCard_card {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+    border-radius: 5px;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+.one_title {
+    color: #36827F;
+    margin: 0;
+    padding: 0;
+}
+
+.one_email {
+    margin: 0;
+    padding: 0;
+}
+
+.card_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem 0;
+    gap: 1rem
+
+}
+
+.card_two {
+    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fade_out {
+    animation: fadeOut 1s ease-in-out;
+    opacity: 0;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/******bouttons ********/
+
+.two_button_see {
+    background-color: #C2EFB3;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: none; 
+    padding: 0.5rem 2.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.two_button_delete {
+    background-color: #FD7979;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    border: none; 
+    padding: 0.5rem 2.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.two_button_see:hover, .two_button_delete:hover, .button_addsearch:hover {
+    transform: scale(1.01);
+    box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+/******pagination********/
+
+.contactCard_pagination {
+    display: flex;
+    justify-content: end;
+    padding-right: 8.5rem;
+}
+
+/*******boostrap******/
+/*Obliger de jouer avec les !important :|*/
+.active>.page-link, .page-link.active {
+    background: #36827F !important; 
+    border-color: #36827F !important;
+}
+
+.page-link {
+    color: #262626 !important;
+}
+
+.page-item.active > .page-link {
+    color: #F8F9FA !important;
+}
+
+/************Responsive*************/
+
+@media screen and (max-width: 800px) {
+    .contactCard_card {
+        flex-direction: column;
+        padding: 1rem 0;
+        width: 100%;
+    }
+    .contactCard_pagination {
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    .card_one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    
+    .one_title {
+        margin: 0.4rem;
+    }
+        
+    #searchBar {
+        padding: 1.4rem 3rem;
+    }
+
+    .searchBar_label {
+        display: none;
+        left: 1.5rem;
+        top: 0.8rem;
+    }
+
+    #searchBar:focus + .searchBar_label {
+        display: flex;
+    }
+
+    .notification_box {
+        flex-direction: column;
+    }
+
+    .notification_button {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
